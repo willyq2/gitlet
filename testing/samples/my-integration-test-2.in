@@ -1,0 +1,25 @@
+I prelude1.inc
++ Lens.txt Lens.txt
+> add Lens.txt
+<<<
+> commit "Contains"
+<<<
+> branch imbeginningtofeellikearapgodrapgod
+<<<
++ LensNot.txt LensNot.txt
+> add LensNot.txt
+<<<
+> commit "Contains and Contains"
+<<<
+E Lens.txt
+E LensNot.txt
+> rm Lens.txt
+<<<
+> commit "ContainsNot and Contains"
+<<<
+* Lens.txt
+E LensNot.txt
+> checkout imbeginningtofeellikearapgodrapgod
+<<<
+E Lens.txt
+* LensNot.txt

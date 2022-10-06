@@ -1,0 +1,15 @@
+I prelude1.inc
+> branch basic
+<<<
++ Lens.txt Lens.txt
++ LensNot.txt LensNot.txt
+> add Lens.txt
+<<<
+> add LensNot.txt
+<<<
+> commit "Lens and not."
+<<<
+> checkout basic
+<<<
+* Lens.txt
+* LensNot.txt
